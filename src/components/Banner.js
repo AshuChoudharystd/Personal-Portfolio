@@ -58,7 +58,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Ashu Choudhary`}</h1> 
                 <h1> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Develope", "ML Engineer", "Software Engineer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I'm Ashu Choudhary, a versatile developer with a passion for Web Development, App Development, and Machine Learning. As a software developer and competitive programming enthusiast, I enjoy solving complex problems and building efficient solutions. My portfolio showcases a blend of innovative web and mobile applications, along with projects that reflect my journey in mastering ML techniques. I'm always eager to learn new technologies and bring creative ideas to life. Feel free to explore my work and see what I can build next !</p>
+                  <p>I'm Ashu Choudhary, a versatile developer with a passion for Web Development and Machine Learning. As a software developer and competitive programming enthusiast, I enjoy solving complex problems and building efficient solutions. My portfolio showcases a blend of innovative web and mobile applications, along with projects that reflect my journey in mastering ML techniques. I'm always eager to learn new technologies and bring creative ideas to life. Feel free to explore my work and see what I can build next !</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
