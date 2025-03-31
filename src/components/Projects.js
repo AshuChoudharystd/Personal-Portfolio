@@ -7,6 +7,8 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import projImg6 from "../assets/img/project-img6.jpg";
 import forestfire from "../assets/img/forestfire.jpg";
 import diabeties from "../assets/img/diabeties.jpg";
+import paytm from '../assets/img/paytm.jpg';
+import mindfulInk from '../assets/img/mindful-ink-high-resolution-logo.png'
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import { isLabelWithInternallyDisabledControl } from "@testing-library/user-event/dist/utils";
@@ -24,6 +26,18 @@ export const Projects = () => {
       description: "A Full Stack MERN Project ",
       imgUrl: projImg6,
       link: "https://github.com/AshuChoudharystd/FoodOrderingWebApp.git",
+    },
+    {
+      title:"Paymnet App",
+      description:"Mimics the real time Payments App like 'Paytm and PhonePe'",
+      imgUrl:paytm,
+      link:"https://github.com/AshuChoudharystd/Paytm-frontend.git"
+    },
+    {
+      title:"MindFul Ink Blogging Site",
+      description:"An unified blogging platform for all the writers",
+      imgUrl:mindfulInk,
+      link:"https://github.com/AshuChoudharystd/mindful-ink-writer.git"
     },
     {
       title: "Algerian Forest Fire Prediction Model",
